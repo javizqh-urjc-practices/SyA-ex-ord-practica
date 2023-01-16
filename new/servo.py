@@ -29,6 +29,7 @@ def callbackBotonPulsado (canal):
     global estado
     if estado:
         acelerar(2)
+        estado = False
     else:
         parar()
 
