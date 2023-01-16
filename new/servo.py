@@ -46,6 +46,7 @@ def acelerar (intensidad): # girar en el otro sentido a velocidad máxima
             ledRGB.setRGB(255, 255, 0) # Turn led yellow
         else:
             ledRGB.setRGB(0, 255, 0) # Turn led green
+    ledRGB.setRGB(0,0,0)
 
 
 def parar ():
