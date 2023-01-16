@@ -7,7 +7,7 @@ import sys, tty, signal, time, pigpio
 import RPi.GPIO as GPIO
 import sensor, actuator
 
-servoPin = 8 # numeracion en modo BCM (que es el usado por defecto por pigpio)
+servoPin = 14 # numeracion en modo BCM (que es el usado por defecto por pigpio)
 
 '''
   Según especificaciones de la compañía fabricante de estos servos, Parallax,
